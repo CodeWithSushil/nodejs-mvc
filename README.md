@@ -16,5 +16,7 @@ npm install
 Run server
 ```bash
 node --watch app.mjs
+       # or
+node run dev
 ```
-You successfully setup and running server [http://localhost:8080](http://127.0.0.1:8080)
+You successfully setup and running server [http://localhost:3000](http://localhost:3000)
