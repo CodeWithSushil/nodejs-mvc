@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "Node and Expressjs MVC",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "dev": "node --watch"
   },
   "repository": {
     "type": "git",
