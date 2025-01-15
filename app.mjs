@@ -1,19 +1,20 @@
 import express from 'express';
+import Router from './routes/router.js';
 const PORT = process.env.PORT | 3000;
 import ejs from 'ejs';
 
 const app = express();
 
-const server = app.listen(8080, '127.0.0.1', (error) => {
-  if (error) {
-    throw error // e.g. EADDRINUSE
-  }
-  console.log(`Server Listening on port ${PORT}`)
-})
+app.use(express.static('public'));
+app.use(express.urlencoded({
+  extended: true
+}));
 
 app.set('view engine', 'ejs');
-//app.use('views', '/views');
+app.set('views', './views');
 
-app.get('/', (req, res)=> {
-  res.send(`<h1>Hello, Sushil</h1>`);
-})
+app.use(Router);
+
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
+});
