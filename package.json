@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-mvc",
+  "version": "0.0.1",
+  "description": "Node and Expressjs MVC",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithsushil/nodejs-mvc.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mvc",
+    "expressjs"
+  ],
+  "author": "Sushil Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codewithsushil/nodejs-mvc/issues"
+  },
+  "homepage": "https://github.com/codewithsushil/nodejs-mvc#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.0.1"
+  }
+}
