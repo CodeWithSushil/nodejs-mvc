@@ -2,10 +2,11 @@
   "name": "nodejs-mvc",
   "version": "0.0.1",
   "description": "Node and Expressjs MVC",
-  "main": "app.js",
+  "main": "app.mjs",
   "type": "module",
   "scripts": {
-    "dev": "node --watch"
+    "dev": "node --watch app.mjs",
+    "prod": "node app.mjs"
   },
   "repository": {
     "type": "git",
