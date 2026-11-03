@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/codewithsushil/nodejs-mvc#readme",
   "dependencies": {
-    "ejs": "^3.1.10",
+    "ejs": "^7.0.2",
     "express": "^5.2.0"
   }
 }
